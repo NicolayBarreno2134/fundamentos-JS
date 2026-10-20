@@ -25,9 +25,9 @@
 
 | Nombre | Rol | Distribución del Trabajo |
 | :--- | :---: | :--- |
-| **Barreno Nicolay** | Integrante 1 | Fundamentos de JavaScript y Funciones |
-| **Araujo Gregory** | Integrante 2 | Estructuras de Datos (Objetos y Arreglos) |
-| **Jordy Cajas** | Integrante 3 | Integración, DOM, Asincronismo, LocalStorage y Módulos |
+| **Cajas Jordy** | Integrante 1 | Fundamentos de JavaScript y Funciones |
+| **Barreno Nicolay** | Integrante 2 | Estructuras de Datos (Objetos y Arreglos) |
+| **Araujo Gregory** | Integrante 3 | Integración, DOM, Asincronismo, LocalStorage y Módulos |
 
 ---
 
