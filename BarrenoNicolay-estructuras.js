@@ -88,3 +88,9 @@ const nombresArticulos = carritoTemu.map(item => item.articulo.toUpperCase());
 console.log("Nombres de artículos:", nombresArticulos);
 const totalPagar = carritoTemu.reduce((acumulador, item) => acumulador + item.costo, 0);
 console.log(`Total a pagar en TEMU: $${totalPagar.toFixed(2)}`);
+
+
+// ==========================================
+// AGREGADO PARA LA INTEGRACIÓN (MÓDULOS)
+// ==========================================
+export { carritoTemu };

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clon Temu - Laboratorio JS</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .tarjeta { border: 1px solid #ccc; padding: 15px; margin: 10px 0; border-radius: 8px; }
+        button { padding: 10px; cursor: pointer; background-color: #ff6600; color: white; border: none; font-weight: bold;}
+    </style>
+</head>
+<body>
+    <h1>🛒 Tienda Temu (Laboratorio JS)</h1>
+    
+    <h2>1. Tu Carrito (Datos locales)</h2>
+    <!-- Manipularemos esto con el DOM -->
+    <div id="contenedor-carrito"></div>
+
+    <hr>
+
+    <h2>2. Recomendaciones (Consumiendo API Externa)</h2>
+    <button id="btn-cargar-api">Cargar Recomendaciones</button>
+    <div id="contenedor-api"></div>
+
+    <!-- MÓDULOS: type="module" es OBLIGATORIO para tu tema -->
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
