@@ -6,8 +6,7 @@
 // Este es un comentario de una sola línea: Simulación del carrito de Temu.
 
 /*
- 
-Integrantes:
+ Integrantes:
 - Araujo Gregory
 - Barreno Nicolay 
 - Cajas Jordy
@@ -154,3 +153,8 @@ const calcularIvaEcuador = crearCalculadorImpuesto(0.15);
 
 console.log("--- FUNCIONES QUE RETORNAN FUNCIONES ---");
 console.log("Precio final con IVA (Ecuador):", calcularIvaEcuador(precioOriginal).toFixed(2));
+
+// ==========================================
+// AGREGADO PARA LA INTEGRACIÓN (MÓDULOS)
+// ==========================================
+export { calcularDescuentoFlecha, calcularIvaEcuador };
